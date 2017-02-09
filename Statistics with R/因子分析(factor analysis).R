@@ -1,4 +1,4 @@
-#精确到4位小数#shows four figures after the decimal point
+#精确到4位小数#set 4 decimal places
 options(digits=4)
 
 #安装、加载"psych","GPArotation"#install and load "psych","GPArotation"
