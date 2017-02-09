@@ -2,7 +2,7 @@
 install.packages('car',dep = T)
 install.packages('minqa',dep = T)
 
-#简单线性回归#sample ols
+#简单线性回归#sample ols linear regression
 fit <- lm(weight ~ height,data=women)
 
 #展示结果#show the results
