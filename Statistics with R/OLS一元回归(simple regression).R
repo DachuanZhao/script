@@ -9,7 +9,7 @@ fit <- lm(weight ~ height,data=women)
 summary(fit)
 
 #回归系数的置信区间，置信度为0.05
-#Confidence Interval of Regression Coefficient and The confidence level is 0.05
+#95% Confidence Interval of Regression Coefficient
 confint(fit,level=0.05)
 
 #画出回归方程和点#Draw the regression equation lines and points
