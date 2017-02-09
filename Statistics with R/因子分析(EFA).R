@@ -1,7 +1,7 @@
 #精确到4位小数#shows four figures after the decimal point
 options(digits=4)
 
-#安装、加载"psych"#install and load "psych"
+#安装、加载"psych","GPArotation"#install and load "psych","GPArotation"
 install.packages("psych")
 install.packages('GPArotation')
 library(psych)
