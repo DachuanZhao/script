@@ -15,7 +15,7 @@ import numpy as np
 workdir = os.path.join(r"C:\Users\Administrator\Desktop\分米鸡")
 y_excel_dir = os.path.join(workdir,"SCL-90总体描述（表）.xlsx")
 x_excel_dir = os.path.join(workdir,
-                           "北京工商大学新生生活状况调查成功样本数据 161208.xlsx")
+                           "新生生活状况调查成功样本数据 161208.xlsx")
 y_sheet = "各样本SCL-90总分与9因子均值得分"
 x_sheet = ["原始数据","清洗"]
 
