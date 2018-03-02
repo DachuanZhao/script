@@ -15,7 +15,7 @@ if __name__ == '__main__':
     bs_obj = BeautifulSoup(browser.page_source,"lxml")
     
     #我直接把网站下载了，从本地读取，下面的都没问题
-    bs_obj = BeautifulSoup(open(r"D:\input.html",encoding="utf8"),"lxml")
+    #bs_obj = BeautifulSoup(open(r"D:\input.html",encoding="utf8"),"lxml")
     
     #输出html文件
     fout = open("D://a.html", "w+", encoding="utf-8")
