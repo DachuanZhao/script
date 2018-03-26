@@ -1,13 +1,14 @@
 import json
 import sys
 import os.path
+import zdc
 
-class WyJson():
+class WyJson(zdc.file):
     
     def __init__(self,file_abs_path,encoding="UTF-8"):
-        self.dl = self.__json_to_dict(file_abs_path,encoding = encoding)
+        self.list = self.__json_to_list(file_abs_path,encoding = encoding)
     #读取Json文件    
-    def __json_to_dict(self,file_abs_path,encoding):        
+    def __json_to_list(self,file_abs_path,encoding):        
         with open(file_abs_path,'r',encoding = encoding) as load_f:
             load_dict_and_list = json.load(load_f)
             return load_dict_and_list
