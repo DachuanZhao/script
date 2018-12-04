@@ -1,2 +1,1 @@
-# Sample-Data-analysis
-Sample Data analysis with R or python3.x
+some scripts with python,powershell or cmd
